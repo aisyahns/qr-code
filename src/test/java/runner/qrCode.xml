@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QR Code" verbose="1" preserve-order="true">
+    <test name="Generate QR Code">
+        <classes>
+            <class name="tests.GenerateQR"></class>
+        </classes>
+    </test>
+    <test name="Decode QR Code">
+        <classes>
+            <class name="tests.DecodeQR"></class>
+        </classes>
+    </test>
+</suite>
